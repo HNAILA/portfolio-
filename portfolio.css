@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: azure;
+}
+nav {
+  display: flex;
+  width: 84%;
+  padding: 20px 0;
+  margin: auto;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: purple;
+}
+.detel {
+  margin-left: 8%;
+  margin-top: 15%;
+}
+.detel h1 {
+  font-size: 50px;
+  color: black;
+}
+span {
+  color: rgb(198, 82, 211);
+}
+.detel p {
+  color: #555;
+  line-height: 22px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.btn {
+  background: rgb(218, 86, 198);
+  padding: 10px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  display: inline-block;
+  border-radius: 3px;
+}
+.btn:hover {
+  background-color: bisque;
+}
+.social {
+  position: absolute;
+  right: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.social .a {
+  font-size: 30px;
+  color: rgb(172, 67, 172);
+  margin-bottom: 10px;
+}
+.social a:hover {
+  color: blanchedalmond;
+}
+.about-contaner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200vhs;
+}
+.main img {
+  width: 400px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  background: transparent;
+}
+.footer .te-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer img {
+  width: 80px;
+  border-radius: 50%;
+}
+.lni-whatsapp {
+  font-size: 19px;
+  margin-right: 6px;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.link {
+  color: rgb(219, 19, 129);
+}
